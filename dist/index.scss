@@ -1,0 +1,114 @@
+/*!
+ * name: @feizheng/webkit-sass-flexbox
+ * description: Sass flexbox.
+ * url: https://github.com/afeiship/webkit-sass-flexbox
+ * version: 1.0.0
+ * date: 2020-03-23 09:52:56
+ * license: MIT
+ */
+
+/*webkit-sass-flexbox Start*/
+
+$webkit-sass-flexbox-options: (
+  prefix: ""
+) !default;
+
+$prefix: map-get(
+  $map: $webkit-sass-flexbox-options,
+  $key: prefix
+);
+
+.#{$prefix}row,
+.#{$prefix}col {
+  box-sizing: border-box;
+}
+
+.#{$prefix}row {
+  display: flex;
+  width: 100%;
+}
+
+.#{$prefix}row-wrap {
+  flex-wrap: wrap;
+}
+
+.#{$prefix}row-nowrap {
+  flex-wrap: nowrap;
+}
+
+.#{$prefix}column {
+  flex: 1;
+}
+
+.#{$prefix}col {
+  flex: 1;
+  display: block;
+  width: 100%;
+}
+
+//box directions:
+.#{$prefix}box-vertical {
+  flex-direction: column;
+}
+.#{$prefix}box-horizontal {
+  flex-direction: row;
+}
+
+/* Vertically Align Columns */
+/* .#{$prefix}row-* vertically aligns every .#{$prefix}col in the .#{$prefix}row */
+.#{$prefix}row-top {
+  align-items: flex-start;
+}
+.#{$prefix}row-bottom {
+  align-items: flex-end;
+}
+.#{$prefix}row-center {
+  align-items: center;
+}
+.#{$prefix}row-stretch {
+  align-items: stretch;
+}
+.#{$prefix}row-baseline {
+  align-items: baseline;
+}
+
+/* Vertically Row Justify */
+//start end center space-around space-between
+.#{$prefix}row-justify-start {
+  justify-content: flex-start;
+}
+
+.#{$prefix}row-justify-end {
+  justify-content: flex-end;
+}
+
+.#{$prefix}row-justify-center {
+  justify-content: center;
+}
+
+.#{$prefix}row-justify-stretch {
+  justify-content: stretch;
+}
+
+.#{$prefix}row-justify-between {
+  justify-content: space-between;
+}
+
+.#{$prefix}row-justify-around {
+  justify-content: space-around;
+}
+
+/* .#{$prefix}col-* vertically aligns an individual .#{$prefix}col */
+.#{$prefix}col-top {
+  align-self: flex-start;
+}
+.#{$prefix}col-bottom {
+  align-self: flex-end;
+}
+.#{$prefix}col-center {
+  align-self: center;
+}
+.#{$prefix}col-stretch {
+  align-self: stretch;
+}
+/*webkit-sass-flexbox End*/
