@@ -6,10 +6,9 @@ test
 __tests__
 .prettierrc
 .editorconfig
-bower.json
-Gemfile
 gulpfile.js
 LICENSE.txt
 Rakefile
 server.js
 .prettierrc
+.release-it.json

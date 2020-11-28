@@ -1,12 +1,12 @@
 /*!
- * name: @feizheng/webkit-sass-flexbox
+ * name: @jswork/wsui-flexbox
  * description: Sass flexbox.
- * url: https://github.com/afeiship/webkit-sass-flexbox
+ * homepage: https://github.com/afeiship/wsui-flexbox
  * version: 1.0.0
- * date: 2020-03-23 09:58:57
+ * date: 2020-11-28 18:03:54
  * license: MIT
  */
-/*webkit-sass-flexbox Start*/
+/*wsui-flexbox Start*/
 .row,
 .col {
   box-sizing: border-box;
@@ -107,7 +107,7 @@
   align-self: stretch;
 }
 
-/*webkit-sass-flexbox End*/
-.test-webkit-sass-flexbox {
+/*wsui-flexbox End*/
+.test-wsui-flexbox {
   border: 1px solid red;
 }

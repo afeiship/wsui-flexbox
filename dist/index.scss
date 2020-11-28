@@ -1,114 +1,106 @@
 /*!
- * name: @feizheng/webkit-sass-flexbox
+ * name: @jswork/wsui-flexbox
  * description: Sass flexbox.
- * url: https://github.com/afeiship/webkit-sass-flexbox
+ * homepage: https://github.com/afeiship/wsui-flexbox
  * version: 1.0.0
- * date: 2020-03-23 09:58:57
+ * date: 2020-11-28 18:03:54
  * license: MIT
  */
 
-/*webkit-sass-flexbox Start*/
+/*wsui-flexbox Start*/
+$wsui-flexbox-prefix: "" !default;
 
-$webkit-sass-flexbox-options: (
-  prefix: ""
-) !default;
-
-$prefix: map-get(
-  $map: $webkit-sass-flexbox-options,
-  $key: prefix
-);
-
-.#{$prefix}row,
-.#{$prefix}col {
+.#{$wsui-flexbox-prefix}row,
+.#{$wsui-flexbox-prefix}col {
   box-sizing: border-box;
 }
 
-.#{$prefix}row {
+.#{$wsui-flexbox-prefix}row {
   display: flex;
   width: 100%;
 }
 
-.#{$prefix}row-wrap {
+.#{$wsui-flexbox-prefix}row-wrap {
   flex-wrap: wrap;
 }
 
-.#{$prefix}row-nowrap {
+.#{$wsui-flexbox-prefix}row-nowrap {
   flex-wrap: nowrap;
 }
 
-.#{$prefix}column {
+.#{$wsui-flexbox-prefix}column {
   flex: 1;
 }
 
-.#{$prefix}col {
+.#{$wsui-flexbox-prefix}col {
   flex: 1;
   display: block;
   width: 100%;
 }
 
 //box directions:
-.#{$prefix}box-vertical {
+.#{$wsui-flexbox-prefix}box-vertical {
   flex-direction: column;
 }
-.#{$prefix}box-horizontal {
+.#{$wsui-flexbox-prefix}box-horizontal {
   flex-direction: row;
 }
 
 /* Vertically Align Columns */
-/* .#{$prefix}row-* vertically aligns every .#{$prefix}col in the .#{$prefix}row */
-.#{$prefix}row-top {
+/* .#{$wsui-flexbox-prefix}row-* vertically aligns every .#{$wsui-flexbox-prefix}col in the .#{$wsui-flexbox-prefix}row */
+.#{$wsui-flexbox-prefix}row-top {
   align-items: flex-start;
 }
-.#{$prefix}row-bottom {
+.#{$wsui-flexbox-prefix}row-bottom {
   align-items: flex-end;
 }
-.#{$prefix}row-center {
+.#{$wsui-flexbox-prefix}row-center {
   align-items: center;
 }
-.#{$prefix}row-stretch {
+.#{$wsui-flexbox-prefix}row-stretch {
   align-items: stretch;
 }
-.#{$prefix}row-baseline {
+.#{$wsui-flexbox-prefix}row-baseline {
   align-items: baseline;
 }
 
 /* Vertically Row Justify */
 //start end center space-around space-between
-.#{$prefix}row-justify-start {
+.#{$wsui-flexbox-prefix}row-justify-start {
   justify-content: flex-start;
 }
 
-.#{$prefix}row-justify-end {
+.#{$wsui-flexbox-prefix}row-justify-end {
   justify-content: flex-end;
 }
 
-.#{$prefix}row-justify-center {
+.#{$wsui-flexbox-prefix}row-justify-center {
   justify-content: center;
 }
 
-.#{$prefix}row-justify-stretch {
+.#{$wsui-flexbox-prefix}row-justify-stretch {
   justify-content: stretch;
 }
 
-.#{$prefix}row-justify-between {
+.#{$wsui-flexbox-prefix}row-justify-between {
   justify-content: space-between;
 }
 
-.#{$prefix}row-justify-around {
+.#{$wsui-flexbox-prefix}row-justify-around {
   justify-content: space-around;
 }
 
-/* .#{$prefix}col-* vertically aligns an individual .#{$prefix}col */
-.#{$prefix}col-top {
+/* .#{$wsui-flexbox-prefix}col-* vertically aligns an individual .#{$wsui-flexbox-prefix}col */
+.#{$wsui-flexbox-prefix}col-top {
   align-self: flex-start;
 }
-.#{$prefix}col-bottom {
+.#{$wsui-flexbox-prefix}col-bottom {
   align-self: flex-end;
 }
-.#{$prefix}col-center {
+.#{$wsui-flexbox-prefix}col-center {
   align-self: center;
 }
-.#{$prefix}col-stretch {
+.#{$wsui-flexbox-prefix}col-stretch {
   align-self: stretch;
 }
-/*webkit-sass-flexbox End*/
+/*wsui-flexbox End*/
