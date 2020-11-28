@@ -16,9 +16,6 @@ npm i @jswork/wsui-flexbox
 @import '~@jswork/wsui-flexbox';
 ```
 
-## documentation
-- https://afeiship.github.io/wsui-flexbox/
-
 ## license
 Code released under [the MIT license](https://github.com/afeiship/wsui-flexbox/blob/master/LICENSE.txt).
 
