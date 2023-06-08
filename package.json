@@ -1,6 +1,6 @@
 {
   "name": "@jswork/wsui-flexbox",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Sass flexbox.",
   "homepage": "https://github.com/afeiship/wsui-flexbox",
   "author": {
@@ -23,18 +23,13 @@
     "gulp-load-plugins": "^2.0.5",
     "gulp-postcss": "^9.0.0",
     "gulp-rename": "^2.0.0",
-    "gulp-sass": "^4.1.0",
+    "gulp-sass": "^5.1.0",
     "postcss": "^8.1.10",
-    "release-it": "^14.2.1"
+    "sass": "^1.63.2"
   },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "keywords": [
-    "webkit",
-    "sass",
-    "flexbox",
-    "slim"
-  ]
+  "keywords": ["webkit", "sass", "flexbox", "slim"]
 }

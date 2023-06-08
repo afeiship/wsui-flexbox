@@ -2,17 +2,28 @@
  * name: @jswork/wsui-flexbox
  * description: Sass flexbox.
  * homepage: https://github.com/afeiship/wsui-flexbox
- * version: 1.0.1
- * date: 2020-12-23 09:41:13
+ * version: 1.0.2
+ * date: 2023-06-08 17:40:51
  * license: MIT
  */
 /*wsui-flexbox Start*/
+.x.row-100, .x.row {
+  flex-direction: row;
+}
+.y.row-100, .y.row {
+  flex-direction: column;
+}
+
 .row,
 .col {
   box-sizing: border-box;
 }
 
 .row {
+  display: flex;
+}
+
+.row-100 {
   display: flex;
   width: 100%;
 }
@@ -35,11 +46,11 @@
   width: 100%;
 }
 
-.box-vertical {
+.is-y {
   flex-direction: column;
 }
 
-.box-horizontal {
+.is-x {
   flex-direction: row;
 }
 
