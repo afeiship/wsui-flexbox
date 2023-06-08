@@ -3,7 +3,7 @@
  * description: Sass flexbox.
  * homepage: https://github.com/afeiship/wsui-flexbox
  * version: 1.0.3
- * date: 2023-06-08 17:42:38
+ * date: 2023-06-08 19:59:29
  * license: MIT
  */
 /*wsui-flexbox Start*/
@@ -36,14 +36,14 @@
   flex-wrap: nowrap;
 }
 
-.column {
-  flex: 1;
-}
-
-.col {
+.column, .column_ > * {
   flex: 1;
   display: block;
   width: 100%;
+}
+
+.col, .col_ > * {
+  flex: 1;
 }
 
 .is-y {

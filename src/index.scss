@@ -36,13 +36,19 @@ $wsui-flexbox-prefix: '' !default;
 }
 
 .#{$wsui-flexbox-prefix}column {
-  flex: 1;
+  &,
+  &_ > * {
+    flex: 1;
+    display: block;
+    width: 100%;
+  }
 }
 
 .#{$wsui-flexbox-prefix}col {
-  flex: 1;
-  display: block;
-  width: 100%;
+  &,
+  &_ > * {
+    flex: 1;
+  }
 }
 
 //box directions:
