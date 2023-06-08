@@ -1,5 +1,14 @@
 /*wsui-flexbox Start*/
-$wsui-flexbox-prefix: "" !default;
+$wsui-flexbox-prefix: '' !default;
+
+%xy {
+  &.x {
+    flex-direction: row;
+  }
+  &.y {
+    flex-direction: column;
+  }
+}
 
 .#{$wsui-flexbox-prefix}row,
 .#{$wsui-flexbox-prefix}col {
@@ -8,7 +17,14 @@ $wsui-flexbox-prefix: "" !default;
 
 .#{$wsui-flexbox-prefix}row {
   display: flex;
+  // width: 100%;
+  @extend %xy;
+}
+
+.#{$wsui-flexbox-prefix}row-100 {
+  display: flex;
   width: 100%;
+  @extend %xy;
 }
 
 .#{$wsui-flexbox-prefix}row-wrap {
@@ -30,10 +46,10 @@ $wsui-flexbox-prefix: "" !default;
 }
 
 //box directions:
-.#{$wsui-flexbox-prefix}box-vertical {
+.#{$wsui-flexbox-prefix}is-y {
   flex-direction: column;
 }
-.#{$wsui-flexbox-prefix}box-horizontal {
+.#{$wsui-flexbox-prefix}is-x {
   flex-direction: row;
 }
 
