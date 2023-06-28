@@ -110,4 +110,12 @@
   align-self: stretch;
 }
 
+.shk0 {
+  flex-shrink: 0;
+}
+
+.shk1 {
+  flex-shrink: 0;
+}
+
 /*wsui-flexbox End*/
