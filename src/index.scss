@@ -116,4 +116,10 @@ $wsui-flexbox-prefix: '' !default;
 .#{$wsui-flexbox-prefix}col-stretch {
   align-self: stretch;
 }
+.#{$wsui-flexbox-prefix}shk0 {
+  flex-shrink: 0;
+}
+.#{$wsui-flexbox-prefix}shk1 {
+  flex-shrink: 0;
+}
 /*wsui-flexbox End*/
