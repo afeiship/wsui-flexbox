@@ -93,6 +93,10 @@
   justify-content: space-around;
 }
 
+.row-justify-evenly {
+  justify-content: space-evenly;
+}
+
 /* .col-* vertically aligns an individual .col */
 .col-top {
   align-self: flex-start;

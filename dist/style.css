@@ -2,8 +2,8 @@
  * name: @jswork/wsui-flexbox
  * description: Sass flexbox.
  * homepage: https://github.com/afeiship/wsui-flexbox
- * version: 1.0.5
- * date: 2023-06-28 14:42:07
+ * version: 1.0.7
+ * date: 2023-07-02 12:14:58
  * license: MIT
  */
 /*wsui-flexbox Start*/
@@ -99,6 +99,10 @@
 
 .row-justify-around {
   justify-content: space-around;
+}
+
+.row-justify-evenly {
+  justify-content: space-evenly;
 }
 
 /* .col-* vertically aligns an individual .col */

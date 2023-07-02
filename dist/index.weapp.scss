@@ -103,6 +103,10 @@ $wsui-flexbox-prefix: '' !default;
   justify-content: space-around;
 }
 
+.#{$wsui-flexbox-prefix}row-justify-evenly {
+  justify-content: space-evenly;
+}
+
 /* .#{$wsui-flexbox-prefix}col-* vertically aligns an individual .#{$wsui-flexbox-prefix}col */
 .#{$wsui-flexbox-prefix}col-top {
   align-self: flex-start;
