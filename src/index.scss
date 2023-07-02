@@ -21,12 +21,6 @@ $wsui-flexbox-prefix: '' !default;
   @extend %xy;
 }
 
-.#{$wsui-flexbox-prefix}row-100 {
-  display: flex;
-  width: 100%;
-  @extend %xy;
-}
-
 .#{$wsui-flexbox-prefix}row-wrap {
   flex-wrap: wrap;
 }
