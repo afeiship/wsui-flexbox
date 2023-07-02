@@ -2,8 +2,8 @@
  * name: @jswork/wsui-flexbox
  * description: Sass flexbox.
  * homepage: https://github.com/afeiship/wsui-flexbox
- * version: 1.0.7
- * date: 2023-07-02 12:14:58
+ * version: 1.0.8
+ * date: 2023-07-02 14:32:41
  * license: MIT
  */
 
@@ -27,12 +27,6 @@ $wsui-flexbox-prefix: '' !default;
 .#{$wsui-flexbox-prefix}row {
   display: flex;
   // width: 100%;
-  @extend %xy;
-}
-
-.#{$wsui-flexbox-prefix}row-100 {
-  display: flex;
-  width: 100%;
   @extend %xy;
 }
 

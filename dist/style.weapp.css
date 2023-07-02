@@ -1,8 +1,8 @@
 /*wsui-flexbox Start*/
-.x.row-100, .x.row {
+.x.row {
   flex-direction: row;
 }
-.y.row-100, .y.row {
+.y.row {
   flex-direction: column;
 }
 
@@ -13,11 +13,6 @@
 
 .row {
   display: flex;
-}
-
-.row-100 {
-  display: flex;
-  width: 100%;
 }
 
 .row-wrap {
